@@ -125,3 +125,29 @@ a {
     text-align: center;
 }
 
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    align-items: center;
+    padding: 101px 0px 80px 0px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    max-width: 770px;
+}
+
+.quoter {
+    display: flex;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    width: 770px;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
