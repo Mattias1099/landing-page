@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
     
 }
 
@@ -60,15 +61,23 @@ a {
     width: 400px;
 }
 
-.sign-up-button {
+.sign-up-button,
+.sign-up-button-two {
     width: 100px;
     height: 30px;
-    border: none;
     color: white;
     background-color: #3882F6;
     border-radius: 8px;
     margin-top: 10px;
     font-weight: 700;
+}
+
+.sign-up-button {
+    border: none;
+}
+
+.sign-up-button-two {
+    border: 2px solid white;
 }
 
 .hero-main-text {
@@ -139,6 +148,7 @@ a {
     display: flex;
     font-size: 36px;
     max-width: 770px;
+    font-style: italic;
 }
 
 .quoter {
@@ -151,3 +161,41 @@ a {
     padding-right: 50px;
 }
 
+.section-four {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue-banner {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 80px 30px 80px;
+    border-radius: 8px;
+    gap: 120px;
+}
+
+.left-section-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lft-sec-frst-txt {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.lft-sec-sec-txt {
+    color: rgb(230, 224, 224);
+}
