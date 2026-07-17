@@ -199,3 +199,10 @@ a {
 .lft-sec-sec-txt {
     color: rgb(230, 224, 224);
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
