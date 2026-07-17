@@ -9,13 +9,14 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 10px 150px 10px 150px;
+    padding: 10px 200px 10px 200px;
 }
 
 .header-logo {
     display: flex;
-    color: white;
+    color: #F9FAF8;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .header-list {
@@ -27,7 +28,7 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 20px;
+    gap: 30px;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 100px 150px 100px 150px;
+    padding: 100px 200px 100px 200px;
     gap: 30px;
 }
 
@@ -55,8 +56,8 @@ a {
 }
 
 .right-section-one img {
-    height: 188px;
-    width: 350px;
+    height: 200px;
+    width: 400px;
 }
 
 .sign-up-button {
@@ -64,20 +65,63 @@ a {
     height: 30px;
     border: none;
     color: white;
-    background-color: rgb(24, 128, 214);
+    background-color: #3882F6;
     border-radius: 8px;
     margin-top: 10px;
     font-weight: 700;
 }
 
 .hero-main-text {
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
+    color: #F9FAF8;
+    font-size: 48px;
+    max-width: 400px;
+    font-weight: 900;
 
 }
 
 .hero-subtext {
     color: rgb(230, 224, 224);
     max-width: 400px;
+    font-size: 18px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section-two-text {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 50px 0px 50px 0px;
+}
+
+.pictures-and-text {
+    display: flex;
+    gap: 60px;
+}
+
+.first-img-and-txt,
+.second-img-and-txt,
+.third-img-and-txt,
+.fourth-img-and-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.small-img {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+
+.section-two-subtext {
+    width: 150px;
+    text-align: center;
+}
+
